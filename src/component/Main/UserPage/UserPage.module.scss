@@ -1,0 +1,21 @@
+.userPage {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "photo"
+    "details";
+  justify-items: center;
+  .header {
+    grid-area: header;
+    grid-auto-rows: auto;
+  }
+  .photo {
+    grid-area: photo;
+    justify-items: end;
+  }
+  .details {
+    grid-area: details;
+    justify-items: start;
+    color: #000000;
+  }
+}

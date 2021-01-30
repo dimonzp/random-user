@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  min-height: 13vh;
+
+  .back {
+    display: grid;
+    justify-items: start;
+    align-items: flex-end;
+    .image {
+      height: 50px;
+    }
+  }
+  .markedUsers {
+    display: grid;
+    justify-items: center;
+    align-items: flex-end;
+  }
+}

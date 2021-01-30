@@ -1,0 +1,30 @@
+.userCard {
+  display: grid;
+  grid-auto-columns: 330px;
+  gap: 10px;
+}
+
+.p {
+  font-size: large;
+  text-align: center;
+  color: rgb(65, 65, 65);
+}
+
+.loadMore {
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #001870;
+  transition: 0.3s;
+  &:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+}
